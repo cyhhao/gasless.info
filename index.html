@@ -18,14 +18,21 @@
             margin: 0;
         }
 
+        a {
+            color: var(--color-accent-fg);
+            text-decoration: none;
+        }
+
         .mbIframe {
             width: 100%;
+            min-height: 1007px;
         }
 
         .footer {
             width: 100%;
             text-align: center;
             margin-top: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -36,8 +43,7 @@
         frameborder="0" allowtransparency></iframe>
 
     <div class="footer">
-        <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4"
-            href="https://github.com/cyhhao/gasless" target="_blank">
+        <a aria-label="Homepage" title="GitHub" href="https://github.com/cyhhao/gasless" target="_blank">
             <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true"
                 class="octicon octicon-mark-github">
                 <path fill-rule="evenodd"
@@ -45,6 +51,8 @@
                 </path>
             </svg>
         </a>
+        <br />
+        <a href="https://github.com/cyhhao/gasless" style="margin-left:20px">Download</a>
     </div>
 
 </body>
